@@ -15,4 +15,5 @@ This is a simple app that return you all hollidays of the current year for any c
 ### Usage
 
 - enter `holidates *Country*
+
 (ex: `holidates Italy`)
