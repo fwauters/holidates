@@ -1,0 +1,32 @@
+{
+    "name": "@fwauters/holidates",
+    "version": "1.0.1",
+    "description": "Return the holidays for the actual year of the given country",
+    "main": "holidates.js",
+    "bin": {
+        "holidates": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fwauters/holidates.git"
+    },
+    "keywords": [
+        "holidays",
+        "dates",
+        "holidates"
+    ],
+    "author": "François Wauters",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fwauters/holidates/issues"
+    },
+    "homepage": "https://github.com/fwauters/holidates#readme",
+    "dependencies": {
+        "axios": "^0.20.0",
+        "country-list": "^2.2.0",
+        "yargs": "^16.0.3"
+    }
+}
